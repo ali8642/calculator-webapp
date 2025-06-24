@@ -156,3 +156,37 @@ h2 {
 .b18 {
     grid-area: b18;
 }
+
+@media (max-width: 430px) {
+    #calculator {
+        max-width: 380px;
+        padding: 16px;
+    }
+    
+    #display {
+        padding: 8px;
+    }
+
+    #keys {
+        gap: 8px;
+    }
+}
+
+@media (max-width: 375px) {
+    #calculator {
+        max-width: 350px;
+        padding: 8px;
+    }
+    
+    #display {
+        padding: 6px;
+    }
+
+    #keys {
+        gap: 6px;
+    }
+
+    button {
+        width: 70px;
+    }
+}
