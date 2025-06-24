@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Web Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="website icon" type="png" href="./assets/icons8-calculator-16.png">
+</head>
+
+<body>
+
+    <div id="calculator">
+        <input id="display" value="0" readonly>
+        <div id="keys">
+            <button onclick="clearDisplay('AC')" class="orange b1">AC</button>
+            <button onclick="backSpace()" class="orange b2">DEL</button>
+            <button onclick="appendToDisplay('/')" class="orange b3">/</button>
+            <button onclick="appendToDisplay('*')" class="orange b4">*</button>
+            <button onclick="appendToDisplay('7')" class="gray b5">7</button>
+            <button onclick="appendToDisplay('8')" class="gray b6">8</button>
+            <button onclick="appendToDisplay('9')" class="gray b7">9</button>
+            <button onclick="appendToDisplay('-')" class="orange b8">-</button>
+            <button onclick="appendToDisplay('4')" class="gray b9">4</button>
+            <button onclick="appendToDisplay('5')" class="gray b10">5</button>
+            <button onclick="appendToDisplay('6')" class="gray b11">6</button>
+            <button onclick="appendToDisplay('+')" class="orange b12">+</button>
+            <button onclick="appendToDisplay('1')" class="gray b13">1</button>
+            <button onclick="appendToDisplay('2')" class="gray b14">2</button>
+            <button onclick="appendToDisplay('3')" class="gray b15">3</button>
+            <button onclick="calculate()" class="orange b16">=</button>
+            <button onclick="appendToDisplay('0')" class="gray b17">0</button>
+            <button onclick="appendToDisplay('.')" class="gray b18">.</button>
+        </div>
+        <h2>Developed by <a href="https://github.com/ali8642" target="_blank">ali8642</a></h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
